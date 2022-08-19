@@ -27,7 +27,7 @@ global M1 M2 M3 M4 iterBool;
 M1 = true; % Cell-Alone Removal
 M2 = true; % Vector-wise Removal on row/column
 M3 = true; % Depth-Estimation-Cell-Alone Removal
-M4 = true; % Random Estimator
+M4 = false; % Random Estimator
 
 %% Solver
 sizeCase = size(SUDOKU_STRUCT.PROBLEM);
